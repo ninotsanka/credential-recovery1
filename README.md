@@ -19,7 +19,7 @@ Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal.</a>
 3. connect via RDP using vm's public IP address to verify it works 
 <img width="936" height="676" alt="3" src="https://github.com/user-attachments/assets/e0d16b21-b250-4ef9-bf91-ce1665962d8c" />
 
-4. once logged in open secpol.msc (Local Security Policy). Navigate to: Security Settings → Account Policies → Account Lockout Policy. Set Account lockout threshold to 3 (or any low number). Sign out
+4. once logged in open secpol.msc (Local Security Policy). <br>-Navigate to: Security Settings → Account Policies → Account Lockout Policy. <br>-Set Account lockout threshold to 3 (or any low number). <br>-Sign out
 
    <img width="901" height="588" alt="4" src="https://github.com/user-attachments/assets/c53dee0d-60e1-463c-b398-54e6402e0765" />
 
