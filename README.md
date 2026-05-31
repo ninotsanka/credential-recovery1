@@ -3,13 +3,17 @@ Azure VM Credential Recovery (easy)
 <b>Sign in to Azure</b>
 Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal.</a>
 
-1. Create a working Virtual Machine 
-	- create a Resource Group
- - <img width="670" height="408" alt="0" src="https://github.com/user-attachments/assets/c2980c19-3656-4fb1-8500-6d0351160baf" />
- <img width="904" height="599" alt="1" src="https://github.com/user-attachments/assets/0d34f235-507f-4b70-b4a1-e4749da22c23" />
-	- create a Virtual Machine
-    - Under Services, select Virtual machines.
- <img width="565" height="274" alt="3vm" src="https://github.com/user-attachments/assets/1dcc535f-a0c9-4853-a9b1-5ffb9a966b08" />
+<b>Create a working Virtual Machine</b> 
+1. create a Resource Group
+
+<img width="670" height="408" alt="0" src="https://github.com/user-attachments/assets/c2980c19-3656-4fb1-8500-6d0351160baf" />
+
+<img width="904" height="599" alt="1" src="https://github.com/user-attachments/assets/0d34f235-507f-4b70-b4a1-e4749da22c23" />
+
+2. create a Virtual Machine
+-Under Services, select Virtual machines.
+
+<img width="565" height="274" alt="3vm" src="https://github.com/user-attachments/assets/1dcc535f-a0c9-4853-a9b1-5ffb9a966b08" />
 
 <img width="950" height="589" alt="2" src="https://github.com/user-attachments/assets/6faf3a7b-95d2-459b-81dd-425dba769b95" />
 
