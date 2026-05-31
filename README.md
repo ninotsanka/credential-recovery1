@@ -26,9 +26,13 @@ Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal.</a>
    <img width="821" height="585" alt="5" src="https://github.com/user-attachments/assets/f42d1a4f-3305-49cd-96c6-c49986853aaa" />
 
 
-6. "Break" the vm
-	- Easy: Type wrong password 3 times in a row (account locks) 
-7. Troubleshoot & Fix
+5. "Break" the vm. Type wrong password 3 times in a row (account locks)
+
+<img width="958" height="687" alt="6" src="https://github.com/user-attachments/assets/b6118183-7a88-4d7e-bf23-b44ecd0a573c" />
+
+<img width="952" height="689" alt="7" src="https://github.com/user-attachments/assets/50071e5a-3daa-400e-a11d-1bf0035c73da" />
+
+6. Troubleshoot & Fix:
 	- go to VM > help > Boot diagnostics
 	- verify VM screen screenshot shows login screen (normal), then it means VM itself is running and the problem is credentials
 	- to reset the password go to VM > help > Reset password
