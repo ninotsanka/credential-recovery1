@@ -11,7 +11,7 @@ Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal.</a>
 <img width="904" height="599" alt="1" src="https://github.com/user-attachments/assets/0d34f235-507f-4b70-b4a1-e4749da22c23" />
 
 2. create a Virtual Machine
--Under Services, select Virtual machines.
+   Under Services, select Virtual machines.
 
 <img width="565" height="274" alt="3vm" src="https://github.com/user-attachments/assets/1dcc535f-a0c9-4853-a9b1-5ffb9a966b08" />
 
