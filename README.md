@@ -33,12 +33,12 @@ Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal.</a>
 <img width="952" height="689" alt="7" src="https://github.com/user-attachments/assets/50071e5a-3daa-400e-a11d-1bf0035c73da" />
 
 6. Troubleshoot & Fix:
-<br>go to VM > help > Boot diagnostics
-<br>verify VM screen screenshot shows login screen (normal), it means VM itself is running and the problem is credentials
+<br>-go to VM > help > Boot diagnostics
+<br>-verify VM screen screenshot shows login screen (normal), it means VM itself is running and the problem is credentials
 
 <img width="992" height="537" alt="8" src="https://github.com/user-attachments/assets/286736d4-f9f7-4eb8-ab4a-b495ecad9351" />
 
-<br>to reset the password <br>go to VM > help > Reset password <br> set Mode to Reset password <br>enter username (you're resetting password for) <br>enter new password <br>u pdate
+<br>to reset the password <br>-go to VM > help > Reset password <br> -set Mode to Reset password <br>-enter username (you're resetting password for) <br>-enter new password <br>-update
 
 <img width="994" height="598" alt="9" src="https://github.com/user-attachments/assets/cd432a71-dfa4-4cf2-8717-62e4220eb70e" />
 
