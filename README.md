@@ -10,15 +10,15 @@ Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal.</a>
 
 <img width="904" height="599" alt="1" src="https://github.com/user-attachments/assets/0d34f235-507f-4b70-b4a1-e4749da22c23" />
 
-2. create a Virtual Machine
-   Under Services, select Virtual machines.
+2. create a Virtual Machine. Under Services, select Virtual machines.
 
 <img width="565" height="274" alt="3vm" src="https://github.com/user-attachments/assets/1dcc535f-a0c9-4853-a9b1-5ffb9a966b08" />
 
 <img width="950" height="589" alt="2" src="https://github.com/user-attachments/assets/6faf3a7b-95d2-459b-81dd-425dba769b95" />
 
+3. connect via RDP using vm's public IP addressto verify it works 
+<img width="936" height="676" alt="3" src="https://github.com/user-attachments/assets/e0d16b21-b250-4ef9-bf91-ce1665962d8c" />
 
-	- connect via RDP to verify it works using vm's public IP address
 	- Log into the VM
 	- Open secpol.msc (Local Security Policy)
 	- Navigate to: Security Settings → Account Policies → Account Lockout Policy
