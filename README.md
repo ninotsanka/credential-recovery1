@@ -16,7 +16,7 @@ Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal.</a>
 
 <img width="950" height="589" alt="2" src="https://github.com/user-attachments/assets/6faf3a7b-95d2-459b-81dd-425dba769b95" />
 
-3. connect via RDP using vm's public IP addressto verify it works 
+3. connect via RDP using vm's public IP address to verify it works 
 <img width="936" height="676" alt="3" src="https://github.com/user-attachments/assets/e0d16b21-b250-4ef9-bf91-ce1665962d8c" />
 
 4. once logged in open secpol.msc (Local Security Policy). Navigate to: Security Settings → Account Policies → Account Lockout Policy. Set Account lockout threshold to 3 (or any low number). Sign out
@@ -38,11 +38,7 @@ Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal.</a>
 
 <img width="992" height="537" alt="8" src="https://github.com/user-attachments/assets/286736d4-f9f7-4eb8-ab4a-b495ecad9351" />
 
-	- to reset the password go to VM > help > Reset password
-	- set Mode to Reset password
-	- enter username (you're resetting password for)
-	- enter new password
-	- update
+to reset the password go to VM > help > Reset password, set Mode to Reset password, enter username (you're resetting password for), enter new password, update
 
 <img width="994" height="598" alt="9" src="https://github.com/user-attachments/assets/cd432a71-dfa4-4cf2-8717-62e4220eb70e" />
 
