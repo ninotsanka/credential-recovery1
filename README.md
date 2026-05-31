@@ -19,14 +19,16 @@ Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal.</a>
 3. connect via RDP using vm's public IP addressto verify it works 
 <img width="936" height="676" alt="3" src="https://github.com/user-attachments/assets/e0d16b21-b250-4ef9-bf91-ce1665962d8c" />
 
-	- Log into the VM
-	- Open secpol.msc (Local Security Policy)
-	- Navigate to: Security Settings → Account Policies → Account Lockout Policy
-	- Set Account lockout threshold to 3 (or any low number)
-	- Sign out
-2. "Break" the vm
+4. once logged in open secpol.msc (Local Security Policy). Navigate to: Security Settings → Account Policies → Account Lockout Policy. Set Account lockout threshold to 3 (or any low number). Sign out
+
+   <img width="901" height="588" alt="4" src="https://github.com/user-attachments/assets/c53dee0d-60e1-463c-b398-54e6402e0765" />
+
+   <img width="821" height="585" alt="5" src="https://github.com/user-attachments/assets/f42d1a4f-3305-49cd-96c6-c49986853aaa" />
+
+
+6. "Break" the vm
 	- Easy: Type wrong password 3 times in a row (account locks) 
-3. Troubleshoot & Fix
+7. Troubleshoot & Fix
 	- go to VM > help > Boot diagnostics
 	- verify VM screen screenshot shows login screen (normal), then it means VM itself is running and the problem is credentials
 	- to reset the password go to VM > help > Reset password
