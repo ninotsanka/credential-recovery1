@@ -1,5 +1,6 @@
 <p align="center">
-image here
+<img width="200" height="200" alt="10021-icon-service-Virtual-Machine" src="https://github.com/user-attachments/assets/191ae456-9eb1-48b7-8044-d02aafde51ab" />
+
 </p>
 
 <h1>Azure Virtual Machine Credential Recovery (easy)</h1>
@@ -31,7 +32,7 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <p>
 <img width="670" height="408" alt="0" src="https://github.com/user-attachments/assets/c2980c19-3656-4fb1-8500-6d0351160baf" />
 
-<img width="904" height="599" alt="1" src="https://github.com/user-attachments/assets/0d34f235-507f-4b70-b4a1-e4749da22c23" />
+<img width="670" height="408" alt="1" src="https://github.com/user-attachments/assets/0d34f235-507f-4b70-b4a1-e4749da22c23" />
 </p>
 <p>
 Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal</a> and search/select a Resource Group, a container that will hold all the resources for the project. Select create and fillout the values for Subscription, Resource group name, and Region. Select Review + Create, and Create. It should take a couple of seconds to create a resource group. 
