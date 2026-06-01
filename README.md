@@ -1,14 +1,61 @@
-Azure VM Credential Recovery (easy)
+<p align="center">
+image here
+</p>
 
-<b>Sign in to Azure</b>
-Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal.</a>
+<h1>Azure Virtual Machine Credential Recovery (easy)</h1>
+This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 
-<b>Create a working Virtual Machine</b> 
-1. create a Resource Group
 
+<h2>Video Demonstration</h2>
+
+- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+
+<h2>Operating Systems Used </h2>
+
+- Windows 11 (win11-25h2-pro)
+
+<h2>High-Level Setup and Troubleshooting Steps</h2>
+
+- Step 1: Create a virtual machine in Azure
+- Step 2: "Break" the vm
+- Step 3: Troubleshoot & fix
+- Step 4: Verify the fix worked
+
+<h2>Setup and Troubleshooting Steps</h2>
+
+<p>
 <img width="670" height="408" alt="0" src="https://github.com/user-attachments/assets/c2980c19-3656-4fb1-8500-6d0351160baf" />
 
 <img width="904" height="599" alt="1" src="https://github.com/user-attachments/assets/0d34f235-507f-4b70-b4a1-e4749da22c23" />
+</p>
+<p>
+Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal</a> and search/select a Resource Group, a container that will hold all the resources for the project. Select create and fillout the values for Subscription, Resource group name, and Region. Select Review + Create, and Create. It should take a couple of seconds to create a resource group. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+____________________________________________________________________________________________________________________________
 
 2. create a Virtual Machine. Under Services, select Virtual machines.
 
