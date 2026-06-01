@@ -47,7 +47,7 @@ Under Azure services select Virtual machines and select create > Virtual machine
 <br />
 
 <p>
-<img width="731" height="298" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
+<img width="565" height="274" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
 
 </p>
 <p>
