@@ -43,7 +43,7 @@ Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal</a> a
 <img width="565" height="274" alt="3vm" src="https://github.com/user-attachments/assets/1dcc535f-a0c9-4853-a9b1-5ffb9a966b08" />
 </p>
 <p>
-Under Azure services select Virtual machines and select create > Virtual machine. </p>
+Under Azure services select <b>Virtual machines</b> and select <b>create > Virtual machine</b>. </p> Once the <b>Create a virtual machine</b> page opens fillout values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>
 <br />
 
 <p>
