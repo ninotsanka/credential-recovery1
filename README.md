@@ -33,54 +33,69 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <img width="670" height="408" alt="0" src="https://github.com/user-attachments/assets/c2980c19-3656-4fb1-8500-6d0351160baf" />
 <img width="670" height="408" alt="1" src="https://github.com/user-attachments/assets/0d34f235-507f-4b70-b4a1-e4749da22c23" />
 </p>
+
 <br />
+
 <p>
 Sign in to the <a href="https://portal.azure.com/auth/login/"><b>Azure portal</b></a> and search/select a <b>Resource Group</b>, a container that will hold all the resources for the project. Select <b>create</b> and fillout the values for <b>Subscription</b>, <b>Resource group name</b>, and <b>Region</b>. Select <b>Review + Create</b>, and <b>Create</b>. It should take a couple of seconds to create a resource group. 
 </p>
+
 <br />
+
 <p>
 <img width="565" height="274" alt="3vm" src="https://github.com/user-attachments/assets/1dcc535f-a0c9-4853-a9b1-5ffb9a966b08" />
 </p>
+
+<p>
+<img width="731" height="298" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
+<p>
+	
 <p>
 Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtual machine</b>. 
+<p>
+	
 
-<img width="731" height="298" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
-
-</p> Once the <b>Create a virtual machine</b> page opens fillout values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>
+</p> Once the <b>Create a virtual machine</b> page opens choose <b>Subscription</b> and previously created <b>Resource Group</b>. Fillout the values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>, the page will fill in the other fields with defaults.
 <br />
 
 <p>
-
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img width="731" height="298" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
-
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img width="787" height="485" alt="4vm" src="https://github.com/user-attachments/assets/72fd508c-50f4-440a-8717-f9acb02d84f3" />
 </p>
 <br />
 
 <p>
-<img width="731" height="298" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
-
+<img width="804" height="249" alt="5vm" src="https://github.com/user-attachments/assets/fc24ffe4-79f3-4030-8082-d1e692c305ef" />
 </p>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Under <b>Administrator account</b>, provide a username and a password.
 </p>
 <br />
 
 <p>
-<img width="731" height="298" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
-
+image
 </p>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+text
+</p>
+<br />
+
+<p>
+image
+</p>
+
+<p>
+text
+</p>
+<br />
+
+<p>
+image
+</p>
+
+<p>
+text
 </p>
 <br />
 
