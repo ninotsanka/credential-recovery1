@@ -92,18 +92,48 @@ After validation runs, select the <b>Create</b> button at the bottom of the page
 <br />
 
 <p>
-Create a remote desktop connection to the virtual machine. These directions tell you how to connect to your VM from a Mac computer. On a Windows computer, follow <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal"><b>Connect to virtual machine</b></a> steps. <a href="https://apps.apple.com/us/app/windows-app/id1295203466?mt=12"><b>In App Store for Mac</b></a> download Windows App, open the app and select <b>+</b> and <b>Add PC</b>. 
+Create a remote desktop connection to the virtual machine. These directions tell you how to connect to your VM from a Mac computer. On a Windows computer, follow <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal"><b>Connect to virtual machine</b></a> steps. 
 </p>
 
 <p>
-image
-</p>
-
-<p>
-text
+<img width="697" height="275" alt="wapp" src="https://github.com/user-attachments/assets/48e4ecc1-d777-4b6e-8fd6-fb17177bfd06" />
 </p>
 <br />
 
+<p>
+<a href="https://apps.apple.com/us/app/windows-app/id1295203466?mt=12"><b>In App Store for Mac</b></a> download Windows App (previously called Remote Desktop). 
+</p>
+<br />
+
+<p>
+<img width="341" height="295" alt="addpc" src="https://github.com/user-attachments/assets/13e16b4f-3f5e-4c8a-b698-312d28b71252" />
+</p>
+<br />
+
+<p>
+Open the app and select <b>+</b> and <b>Add PC</b>. 
+</p>
+<br />
+
+<p>
+<img width="453" height="518" alt="addpcip" src="https://github.com/user-attachments/assets/b0ad74c8-8705-45c4-bee8-209c2bc314e9" />
+</p>
+<br />
+
+<p>
+Fillout <b>PC name</b> (this is the <b>Primary NIC public IP</b> from the virtual machine), add optional <b>Friendly name</b> and select <b>Add</b>. You are now ready to connect to the virtual machine from your desktop.
+</p>
+<br />
+
+<p>
+	
+</p>
+<br />
+
+<p>
+	
+</p>
+<br />
 ____________________________________________________________________________________________________________________________
 
 
