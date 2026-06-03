@@ -48,18 +48,19 @@ Sign in to the <a href="https://portal.azure.com/auth/login/"><b>Azure portal</b
 
 <p>
 <img width="731" height="298" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
-<p>
+</p>
 	
 <p>
 Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtual machine</b>. 
-<p>
-	
-
-</p> Once the <b>Create a virtual machine</b> page opens choose <b>Subscription</b> and previously created <b>Resource Group</b>. Fillout the values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>, the page will fill in the other fields with defaults.
+</p>
 <br />
-
+	
 <p>
 <img width="787" height="485" alt="4vm" src="https://github.com/user-attachments/assets/72fd508c-50f4-440a-8717-f9acb02d84f3" />
+</p>
+<br />
+
+<p> Once the <b>Create a virtual machine</b> page opens, choose <b>Subscription</b> and previously created <b>Resource Group</b>. Fillout the values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>, the page will fill in the other fields with defaults.
 </p>
 <br />
 
@@ -73,11 +74,11 @@ Under <b>Administrator account</b>, provide a username and a password.
 <br />
 
 <p>
-image
+<img width="515" height="207" alt="6vm" src="https://github.com/user-attachments/assets/f726dfba-352a-4e9a-ab47-83f9a1aba135" />
 </p>
 
 <p>
-text
+Under <b>Licensing</b> make sure to check the box for "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights." Leave the remaining defaults and select the <b>Review + create</b> button at the bottom of the page.
 </p>
 <br />
 
