@@ -126,12 +126,34 @@ Fillout <b>PC name</b> (this is the <b>Primary NIC public IP</b> from the virtua
 <br />
 
 <p>
-	
+<img width="936" height="676" alt="3" src="https://github.com/user-attachments/assets/5ea259f7-3179-4553-9a9f-b5bee17dda68" />
 </p>
 <br />
 
 <p>
-	
+Under <b>Saved Devices</b> double click the PC you just added, enter the user credentials you selected for <b>Administrator account</b> when creating the vm, and select <b>Continue</b>. Your remote desktop will load in a minute or so.
+</p>
+<br />
+
+<p>
+<img width="901" height="588" alt="4" src="https://github.com/user-attachments/assets/33c00eb2-f5cb-46e8-aed7-03c269a1b75e" />
+</p>
+<br />
+
+<p>
+Success! You are now connected to a virtual machine.
+</p>
+<br />
+
+<p>
+</p>
+<br />
+
+<p>
+</p>
+<br />
+
+<p>
 </p>
 <br />
 ____________________________________________________________________________________________________________________________
