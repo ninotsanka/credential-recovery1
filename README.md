@@ -31,23 +31,25 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 
 <p>
 <img width="670" height="408" alt="0" src="https://github.com/user-attachments/assets/c2980c19-3656-4fb1-8500-6d0351160baf" />
-
 <img width="670" height="408" alt="1" src="https://github.com/user-attachments/assets/0d34f235-507f-4b70-b4a1-e4749da22c23" />
 </p>
+<br />
 <p>
-Sign in to the <a href="https://portal.azure.com/auth/login/">Azure portal</a> and search/select a Resource Group, a container that will hold all the resources for the project. Select create and fillout the values for Subscription, Resource group name, and Region. Select Review + Create, and Create. It should take a couple of seconds to create a resource group. 
+Sign in to the <a href="https://portal.azure.com/auth/login/"><b>Azure portal</b></a> and search/select a <b>Resource Group</b>, a container that will hold all the resources for the project. Select <b>create</b> and fillout the values for <b>Subscription</b>, <b>Resource group name</b>, and <b>Region</b>. Select <b>Review + Create</b>, and <b>Create</b>. It should take a couple of seconds to create a resource group. 
 </p>
 <br />
-
 <p>
 <img width="565" height="274" alt="3vm" src="https://github.com/user-attachments/assets/1dcc535f-a0c9-4853-a9b1-5ffb9a966b08" />
 </p>
 <p>
-Under Azure services select <b>Virtual machines</b> and select <b>create > Virtual machine</b>. </p> Once the <b>Create a virtual machine</b> page opens fillout values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>
+Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtual machine</b>. 
+
+<img width="731" height="298" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
+
+</p> Once the <b>Create a virtual machine</b> page opens fillout values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>
 <br />
 
 <p>
-<img width="731" height="298" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
 
 </p>
 <p>
