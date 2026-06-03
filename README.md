@@ -83,13 +83,17 @@ Under <b>Licensing</b> make sure to check the box for "I confirm I have an eligi
 <br />
 
 <p>
-image
+<img width="950" height="589" alt="2" src="https://github.com/user-attachments/assets/6e5f0d4d-6333-4ec1-9206-bc56fad4ffd7" />
 </p>
 
 <p>
-text
+After validation runs, select the <b>Create</b> button at the bottom of the page. Deployment should take 2-3 minutes.
 </p>
 <br />
+
+<p>
+Create a remote desktop connection to the virtual machine. These directions tell you how to connect to your VM from a Mac computer. On a Windows computer, follow <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal"><b>Connect to virtual machine</b></a> steps. <a href="https://apps.apple.com/us/app/windows-app/id1295203466?mt=12"><b>In App Store for Mac</b></a> download Windows App, open the app and select <b>+</b> and <b>Add PC</b>. 
+</p>
 
 <p>
 image
@@ -102,11 +106,6 @@ text
 
 ____________________________________________________________________________________________________________________________
 
-2. create a Virtual Machine. Under Services, select Virtual machines.
-
-<img width="565" height="274" alt="3vm" src="https://github.com/user-attachments/assets/1dcc535f-a0c9-4853-a9b1-5ffb9a966b08" />
-
-<img width="950" height="589" alt="2" src="https://github.com/user-attachments/assets/6faf3a7b-95d2-459b-81dd-425dba769b95" />
 
 3. connect via RDP using vm's public IP address to verify it works 
 <img width="936" height="676" alt="3" src="https://github.com/user-attachments/assets/e0d16b21-b250-4ef9-bf91-ce1665962d8c" />
