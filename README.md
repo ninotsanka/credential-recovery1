@@ -187,7 +187,7 @@ To "break" the vm, type the wrong password 3-4 times in a row, the account shoul
 <br />
 
 <p>
-In Azure portal, go to VM > <b>help</b> > <b>Boot diagnostics</b> and verify VM screen screenshot shows login screen (normal), it means VM itself is running and the problem is credentials.
+In Azure portal, go to your virtual machine > <b>help</b> > <b>Boot diagnostics</b> and verify that screenshot shows vm login screen (normal), it means the virtual machine itself is running and the problem is credentials.
 </p>
 <br />
 
@@ -198,7 +198,7 @@ In Azure portal, go to VM > <b>help</b> > <b>Boot diagnostics</b> and verify VM 
 <br />
 
 <p>
-To reset the password go to VM > <b>help</b> > <b>Reset password</b>, set Mode to <b>Reset password</b>, enter the <b>Username</b> you're resetting password for, enter a new password and select <b>Update</b>.
+To reset the password go to your virtual machine > <b>help</b> > <b>Reset password</b>, set <b>Mode</b> to <b>Reset password</b>, enter the <b>Username</b> you're resetting the password for, enter a new password and select <b>Update</b>.
 </p>
 <br />
 
@@ -207,23 +207,23 @@ To reset the password go to VM > <b>help</b> > <b>Reset password</b>, set Mode t
 </p>
 <br />
 
+<p>
+<img width="711" height="550" alt="10" src="https://github.com/user-attachments/assets/ee470ea6-cf90-460b-ad20-674ede6df9f1" />
+</p>
+<br />
 
+<p>
+Wait 2-3 minutes and sign in using the new password.
+</p>
+<br />
 
-
-
-____________________________________________________________________________________________________________________________
-
-
-
-
-7. Verify the fix worked
-	<br>- wait 2-3 minutes (optional refresh/restart VM)
-	<br>- try RDP again with the new password
-
-<img width="711" height="550" alt="10" src="https://github.com/user-attachments/assets/fa363264-1938-45da-863d-8e7d90d53e7e" />
-
-<br>- success! You're logged in
-<img width="900" height="583" alt="11" src="https://github.com/user-attachments/assets/44c497e4-e0f6-41a5-b652-58304219e785" />
+<p>
 <img width="894" height="567" alt="12" src="https://github.com/user-attachments/assets/b34c069c-2ce1-4a0a-9fdd-814e3a391e19" />
+</p>
+<br />
 
-<br>- the Fix worked!
+<p>
+Success! You are now logged in and the fix worked!
+</p>
+<br />
+
