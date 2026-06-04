@@ -28,6 +28,12 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 - Step 4: Verify the fix worked
 
 <h2>Setup and Troubleshooting Steps</h2>
+<br />
+
+<p>
+<b>Step 1: Create a virtual machine in Azure</b>
+</p>
+<br />
 
 <p>
 <img width="670" height="408" alt="0" src="https://github.com/user-attachments/assets/c2980c19-3656-4fb1-8500-6d0351160baf" />
@@ -146,34 +152,64 @@ Success! You are now connected to a virtual machine.
 <br />
 
 <p>
+<img width="821" height="585" alt="5" src="https://github.com/user-attachments/assets/f42d1a4f-3305-49cd-96c6-c49986853aaa" />
 </p>
 <br />
 
 <p>
+Once logged in open secpol.msc (Local Security Policy). Navigate to: Security Settings → Account Policies → Account Lockout Policy, set Account lockout threshold to 3 (or any low number), and Log off.
 </p>
 <br />
 
 <p>
+<b>Step 2: "Break" the vm</b>
 </p>
 <br />
+
+<p>
+<img width="952" height="689" alt="7" src="https://github.com/user-attachments/assets/50071e5a-3daa-400e-a11d-1bf0035c73da" />
+</p>
+<br />
+
+<p>
+To "break" the vm, type the wrong password 3-4 times in a row, the account should lock.
+</p>
+<br />
+
+<p>
+<b>Step 3: Troubleshoot & fix</b>
+</p>
+<br />
+
+<p>
+<img width="992" height="537" alt="8" src="https://github.com/user-attachments/assets/56a83c97-a4d4-4534-a6b1-9f83f256632c" />
+</p>
+<br />
+
+<p>
+In Azure portal, go to VM > <b>help</b> > <b>Boot diagnostics</b> and verify VM screen screenshot shows login screen (normal), it means VM itself is running and the problem is credentials.
+</p>
+<br />
+
+
+<p>
+
+</p>
+<br />
+
+
+
+<p>
+
+</p>
+<br />
+
+
+
+
+
 ____________________________________________________________________________________________________________________________
 
-
-3. connect via RDP using vm's public IP address to verify it works 
-<img width="936" height="676" alt="3" src="https://github.com/user-attachments/assets/e0d16b21-b250-4ef9-bf91-ce1665962d8c" />
-
-4. once logged in open secpol.msc (Local Security Policy). <br>-Navigate to: Security Settings → Account Policies → Account Lockout Policy. <br>-Set Account lockout threshold to 3 (or any low number). <br>-Sign out
-
-   <img width="901" height="588" alt="4" src="https://github.com/user-attachments/assets/c53dee0d-60e1-463c-b398-54e6402e0765" />
-
-   <img width="821" height="585" alt="5" src="https://github.com/user-attachments/assets/f42d1a4f-3305-49cd-96c6-c49986853aaa" />
-
-
-5. "Break" the vm. Type wrong password 3 times in a row (account locks)
-
-<img width="958" height="687" alt="6" src="https://github.com/user-attachments/assets/b6118183-7a88-4d7e-bf23-b44ecd0a573c" />
-
-<img width="952" height="689" alt="7" src="https://github.com/user-attachments/assets/50071e5a-3daa-400e-a11d-1bf0035c73da" />
 
 6. Troubleshoot & Fix:
 <br>-go to VM > help > Boot diagnostics
