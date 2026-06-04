@@ -193,14 +193,17 @@ In Azure portal, go to VM > <b>help</b> > <b>Boot diagnostics</b> and verify VM 
 
 
 <p>
-
+<img width="994" height="598" alt="9" src="https://github.com/user-attachments/assets/cd432a71-dfa4-4cf2-8717-62e4220eb70e" />
 </p>
 <br />
 
-
+<p>
+To reset the password go to VM > <b>help</b> > <b>Reset password</b>, set Mode to <b>Reset password</b>, enter the <b>Username</b> you're resetting password for, enter a new password and select <b>Update</b>.
+</p>
+<br />
 
 <p>
-
+<b>Step 4: Verify the fix worked</b>
 </p>
 <br />
 
@@ -211,15 +214,7 @@ In Azure portal, go to VM > <b>help</b> > <b>Boot diagnostics</b> and verify VM 
 ____________________________________________________________________________________________________________________________
 
 
-6. Troubleshoot & Fix:
-<br>-go to VM > help > Boot diagnostics
-<br>-verify VM screen screenshot shows login screen (normal), it means VM itself is running and the problem is credentials
 
-<img width="992" height="537" alt="8" src="https://github.com/user-attachments/assets/286736d4-f9f7-4eb8-ab4a-b495ecad9351" />
-
-<br>To reset the password <br>-go to VM > help > Reset password <br> -set Mode to Reset password <br>-enter username (you're resetting password for) <br>-enter new password <br>-update
-
-<img width="994" height="598" alt="9" src="https://github.com/user-attachments/assets/cd432a71-dfa4-4cf2-8717-62e4220eb70e" />
 
 7. Verify the fix worked
 	<br>- wait 2-3 minutes (optional refresh/restart VM)
