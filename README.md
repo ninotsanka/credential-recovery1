@@ -43,7 +43,7 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <br />
 
 <p>
-Sign in to the <a href="https://portal.azure.com/auth/login/"><b>Azure portal</b></a> and search/select a <b>Resource Group</b>, a container that will hold all the resources for the project. Select <b>create</b> and fillout the values for <b>Subscription</b>, <b>Resource group name</b>, and <b>Region</b>. Select <b>Review + Create</b>, and <b>Create</b>. It should take a couple of seconds to create a resource group. 
+<b>1.1</b>Sign in to the <a href="https://portal.azure.com/auth/login/"><b>Azure portal</b></a> and search/select a <b>Resource Group</b>, a container that will hold all the resources for the project. Select <b>create</b> and fillout the values for <b>Subscription</b>, <b>Resource group name</b>, and <b>Region</b>. Select <b>Review + Create</b>, and <b>Create</b>. It should take a couple of seconds to create a resource group. 
 </p>
 
 <br />
@@ -57,7 +57,7 @@ Sign in to the <a href="https://portal.azure.com/auth/login/"><b>Azure portal</b
 </p>
 	
 <p>
-Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtual machine</b>. 
+<b>1.2</b>Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtual machine</b>. 
 </p>
 <br />
 	
@@ -66,7 +66,8 @@ Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtu
 </p>
 <br />
 
-<p> Once the <b>Create a virtual machine</b> page opens, choose <b>Subscription</b> and previously created <b>Resource Group</b>. Fillout the values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>, the page will fill in the other fields with defaults.
+<p>
+<b>1.3</b>Once the <b>Create a virtual machine</b> page opens, choose <b>Subscription</b> and previously created <b>Resource Group</b>. Fillout the values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>, the page will fill in the other fields with defaults.
 </p>
 <br />
 
@@ -75,7 +76,7 @@ Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtu
 </p>
 
 <p>
-Under <b>Administrator account</b>, provide a username and a password.
+<b>1.4</b>Under <b>Administrator account</b>, provide a username and a password.
 </p>
 <br />
 
@@ -84,7 +85,7 @@ Under <b>Administrator account</b>, provide a username and a password.
 </p>
 
 <p>
-Under <b>Licensing</b> make sure to check the box for "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights." Leave the remaining defaults and select the <b>Review + create</b> button at the bottom of the page.
+<b>1.5</b>Under <b>Licensing</b> make sure to check the box for "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights." Leave the remaining defaults and select the <b>Review + create</b> button at the bottom of the page.
 </p>
 <br />
 
@@ -93,12 +94,12 @@ Under <b>Licensing</b> make sure to check the box for "I confirm I have an eligi
 </p>
 
 <p>
-After validation runs, select the <b>Create</b> button at the bottom of the page. Deployment should take 2-3 minutes.
+<b>1.6</b>After validation runs, select the <b>Create</b> button at the bottom of the page. Deployment should take 2-3 minutes.
 </p>
 <br />
 
 <p>
-Create a remote desktop connection to the virtual machine. These directions tell you how to connect to your VM from a Mac computer. On a Windows computer, follow <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal"><b>Connect to virtual machine</b></a> steps. 
+<b>1.7</b>Create a remote desktop connection to the virtual machine. These directions tell you how to connect to your VM from a Mac computer. On a Windows computer, follow <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal"><b>Connect to virtual machine</b></a> steps. 
 </p>
 
 <p>
@@ -117,7 +118,7 @@ Create a remote desktop connection to the virtual machine. These directions tell
 <br />
 
 <p>
-Open the app and select <b>+</b> and <b>Add PC</b>. 
+<b>1.8</b>Open the app and select <b>+</b> and <b>Add PC</b>. 
 </p>
 <br />
 
@@ -127,7 +128,7 @@ Open the app and select <b>+</b> and <b>Add PC</b>.
 <br />
 
 <p>
-Fillout <b>PC name</b> (this is the <b>Primary NIC public IP</b> from the virtual machine), add optional <b>Friendly name</b> and select <b>Add</b>. You are now ready to connect to the virtual machine from your desktop.
+<b>1.9</b>Fillout <b>PC name</b> (this is the <b>Primary NIC public IP</b> from the virtual machine), add optional <b>Friendly name</b> and select <b>Add</b>. You are now ready to connect to the virtual machine from your desktop.
 </p>
 <br />
 
@@ -137,7 +138,7 @@ Fillout <b>PC name</b> (this is the <b>Primary NIC public IP</b> from the virtua
 <br />
 
 <p>
-Under <b>Saved Devices</b> double click the PC you just added, enter the user credentials you selected for <b>Administrator account</b> when creating the vm, and select <b>Continue</b>. Your remote desktop will load in a minute or so.
+<b>1.10</b>Under <b>Saved Devices</b> double click the PC you just added, enter the user credentials you selected for <b>Administrator account</b> when creating the vm, and select <b>Continue</b>. Your remote desktop will load in a minute or so.
 </p>
 <br />
 
@@ -157,7 +158,7 @@ Success! You are now connected to a virtual machine.
 <br />
 
 <p>
-Once logged in open secpol.msc (Local Security Policy). Navigate to: Security Settings → Account Policies → Account Lockout Policy, set Account lockout threshold to 3 (or any low number), and Log off.
+<b>1.11</b>Once logged in open secpol.msc (Local Security Policy). Navigate to: Security Settings → Account Policies → Account Lockout Policy, set Account lockout threshold to 3 (or any low number), and Log off.
 </p>
 <br />
 
