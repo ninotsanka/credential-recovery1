@@ -58,7 +58,8 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 </p>
 	
 <p>
-<b>1.2. </b>Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtual machine</b>. 
+<b>1.2. </b>
+<p>Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtual machine</b>. 
 </p>
 <br />
 	
@@ -68,7 +69,8 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <br />
 
 <p>
-<b>1.3</b>Once the <b>Create a virtual machine</b> page opens, choose <b>Subscription</b> and previously created <b>Resource Group</b>. Fillout the values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>, the page will fill in the other fields with defaults.
+<b>1.3</b>
+<p>Once the <b>Create a virtual machine</b> page opens, choose <b>Subscription</b> and previously created <b>Resource Group</b>. Fillout the values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>, the page will fill in the other fields with defaults.
 </p>
 <br />
 
@@ -77,7 +79,8 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 </p>
 
 <p>
-<b>1.4</b>Under <b>Administrator account</b>, provide a username and a password.
+<b>1.4</b>
+<p>Under <b>Administrator account</b>, provide a username and a password.
 </p>
 <br />
 
@@ -86,7 +89,8 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 </p>
 
 <p>
-<b>1.5</b>Under <b>Licensing</b> make sure to check the box for "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights." Leave the remaining defaults and select the <b>Review + create</b> button at the bottom of the page.
+<b>1.5</b>
+<p>Under <b>Licensing</b> make sure to check the box for "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights." Leave the remaining defaults and select the <b>Review + create</b> button at the bottom of the page.
 </p>
 <br />
 
@@ -95,12 +99,14 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 </p>
 
 <p>
-<b>1.6</b>After validation runs, select the <b>Create</b> button at the bottom of the page. Deployment should take 2-3 minutes.
+<b>1.6</b>
+<p>After validation runs, select the <b>Create</b> button at the bottom of the page. Deployment should take 2-3 minutes.
 </p>
 <br />
 
 <p>
-<b>1.7</b>Create a remote desktop connection to the virtual machine. These directions tell you how to connect to your VM from a Mac computer. On a Windows computer, follow <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal"><b>Connect to virtual machine</b></a> steps. 
+<b>1.7</b>
+<p>Create a remote desktop connection to the virtual machine. These directions tell you how to connect to your VM from a Mac computer. On a Windows computer, follow <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal"><b>Connect to virtual machine</b></a> steps. 
 </p>
 
 <p>
@@ -119,7 +125,8 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <br />
 
 <p>
-<b>1.8</b>Open the app and select <b>+</b> and <b>Add PC</b>. 
+<b>1.8</b>
+<p>Open the app and select <b>+</b> and <b>Add PC</b>. 
 </p>
 <br />
 
@@ -129,7 +136,8 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <br />
 
 <p>
-<b>1.9</b>Fillout <b>PC name</b> (this is the <b>Primary NIC public IP</b> from the virtual machine), add optional <b>Friendly name</b> and select <b>Add</b>. You are now ready to connect to the virtual machine from your desktop.
+<b>1.9</b>
+<p>Fillout <b>PC name</b> (this is the <b>Primary NIC public IP</b> from the virtual machine), add optional <b>Friendly name</b> and select <b>Add</b>. You are now ready to connect to the virtual machine from your desktop.
 </p>
 <br />
 
@@ -139,7 +147,8 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <br />
 
 <p>
-<b>1.10</b>Under <b>Saved Devices</b> double click the PC you just added, enter the user credentials you selected for <b>Administrator account</b> when creating the vm, and select <b>Continue</b>. Your remote desktop will load in a minute or so.
+<b>1.10</b>
+<p>Under <b>Saved Devices</b> double click the PC you just added, enter the user credentials you selected for <b>Administrator account</b> when creating the vm, and select <b>Continue</b>. Your remote desktop will load in a minute or so.
 </p>
 <br />
 
@@ -159,7 +168,8 @@ Success! You are now connected to a virtual machine.
 <br />
 
 <p>
-<b>1.11</b>Once logged in open secpol.msc (Local Security Policy). Navigate to: Security Settings → Account Policies → Account Lockout Policy, set Account lockout threshold to 3 (or any low number), and Log off.
+<b>1.11</b>
+<p>Once logged in open secpol.msc (Local Security Policy). Navigate to: Security Settings → Account Policies → Account Lockout Policy, set Account lockout threshold to 3 (or any low number), and Log off.
 </p>
 <br />
 
