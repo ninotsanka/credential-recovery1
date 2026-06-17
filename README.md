@@ -43,7 +43,7 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <br />
 
 <p>
-<b>1.1. </b>
+<b>1.1 </b>
 <p>Sign in to the <a href="https://portal.azure.com/auth/login/"><b>Azure portal</b></a> and search/select a <b>Resource Group</b>, a container that will hold all the resources for the project. Select <b>create</b> and fillout the values for <b>Subscription</b>, <b>Resource group name</b>, and <b>Region</b>. Select <b>Review + Create</b>, and <b>Create</b>. It should take a couple of seconds to create a resource group. 
 </p>
 
@@ -58,7 +58,7 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 </p>
 	
 <p>
-<b>1.2. </b>
+<b>1.2 </b>
 <p>Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtual machine</b>. 
 </p>
 <br />
@@ -184,7 +184,8 @@ Success! You are now connected to a virtual machine.
 <br />
 
 <p>
-To "break" the vm, type the wrong password 3-4 times in a row, the account should lock.
+<b>2.1</b>
+<p>To "break" the vm, type the wrong password 3-4 times in a row, the account should lock.
 </p>
 <br />
 
@@ -199,7 +200,8 @@ To "break" the vm, type the wrong password 3-4 times in a row, the account shoul
 <br />
 
 <p>
-In Azure portal, go to your virtual machine > <b>help</b> > <b>Boot diagnostics</b> and verify that screenshot shows vm login screen (normal), it means the virtual machine itself is running and the problem is credentials.
+<b>3.1</b>
+<p>In Azure portal, go to your virtual machine > <b>help</b> > <b>Boot diagnostics</b> and verify that screenshot shows vm login screen (normal), it means the virtual machine itself is running and the problem is credentials.
 </p>
 <br />
 
@@ -210,7 +212,8 @@ In Azure portal, go to your virtual machine > <b>help</b> > <b>Boot diagnostics<
 <br />
 
 <p>
-To reset the password go to your virtual machine > <b>help</b> > <b>Reset password</b>, set <b>Mode</b> to <b>Reset password</b>, enter the <b>Username</b> you're resetting the password for, enter a new password and select <b>Update</b>.
+<b>3.2</b>
+<p>To reset the password go to your virtual machine > <b>help</b> > <b>Reset password</b>, set <b>Mode</b> to <b>Reset password</b>, enter the <b>Username</b> you're resetting the password for, enter a new password and select <b>Update</b>.
 </p>
 <br />
 
@@ -225,7 +228,8 @@ To reset the password go to your virtual machine > <b>help</b> > <b>Reset passwo
 <br />
 
 <p>
-Wait 2-3 minutes and sign in using the new password.
+<b>4.1</b>
+<p>Wait 2-3 minutes and sign in using the new password.
 </p>
 <br />
 
