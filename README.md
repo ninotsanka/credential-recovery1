@@ -31,7 +31,7 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <br />
 
 <p>
-<b>Step 1: Create a virtual machine in Azure</b>
+<b><h2>Step 1: Create a virtual machine in Azure</h2></b>
 </p>
 <br />
 
@@ -178,7 +178,7 @@ Success! You are now connected to a virtual machine.
 <br />
 
 <p>
-<b>Step 2: "Break" the vm</b>
+<b><h2>Step 2: "Break" the vm</h2></b>
 </p>
 <br />
 
@@ -194,7 +194,7 @@ Success! You are now connected to a virtual machine.
 <br />
 
 <p>
-<b>Step 3: Troubleshoot & fix</b>
+<b><h2>Step 3: Troubleshoot & fix</h2></b>
 </p>
 <br />
 
@@ -222,7 +222,7 @@ Success! You are now connected to a virtual machine.
 <br />
 
 <p>
-<b>Step 4: Verify the fix worked</b>
+<b><h2>Step 4: Verify the fix worked</h2></b>
 </p>
 <br />
 
