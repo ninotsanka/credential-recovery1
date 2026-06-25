@@ -37,46 +37,43 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 
 <p>
 <b>1.1 </b>
+	<p>Sign in to the <a href="https://portal.azure.com/auth/login/"><b>Azure portal</b></a> and search/select a <b>Resource Group</b>, a container that will hold all the resources for the project. Select <b>create</b> and fillout the values for <b>Subscription</b>, <b>Resource group name</b>, and <b>Region</b>. Select <b>Review + Create</b>, and <b>Create</b>. It should take a couple of seconds to create a resource group. 
+</p>
+
+<br />
+
 <p>
 <img width="670" height="408" alt="0" src="https://github.com/user-attachments/assets/c2980c19-3656-4fb1-8500-6d0351160baf" />
 <img width="670" height="408" alt="1" src="https://github.com/user-attachments/assets/0d34f235-507f-4b70-b4a1-e4749da22c23" />
 </p>
 
+
 <br />
 
-<p>Sign in to the <a href="https://portal.azure.com/auth/login/"><b>Azure portal</b></a> and search/select a <b>Resource Group</b>, a container that will hold all the resources for the project. Select <b>create</b> and fillout the values for <b>Subscription</b>, <b>Resource group name</b>, and <b>Region</b>. Select <b>Review + Create</b>, and <b>Create</b>. It should take a couple of seconds to create a resource group. 
+<p>
+<b>1.2 </b>
+	<p>Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtual machine</b>. 
 </p>
-
-<br />
-
 <p>
 <img width="565" height="274" alt="3vm" src="https://github.com/user-attachments/assets/1dcc535f-a0c9-4853-a9b1-5ffb9a966b08" />
 </p>
 
 <p>
-<b>1.2 </b>
-<p>
 <img width="731" height="298" alt="2vm" src="https://github.com/user-attachments/assets/3083a5a6-6d7a-4f33-884d-a7429162bba8" />
 </p>
 	
-<p>Under Azure services select <b>Virtual machines</b> and select <b>Create > Virtual machine</b>. 
-</p>
-<br />
-	
-<p>
-<img width="787" height="485" alt="4vm" src="https://github.com/user-attachments/assets/72fd508c-50f4-440a-8717-f9acb02d84f3" />
-</p>
+
 <br />
 
 <p>
 <b>1.3</b>
-<p>Once the <b>Create a virtual machine</b> page opens, choose <b>Subscription</b> and previously created <b>Resource Group</b>. Fillout the values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>, the page will fill in the other fields with defaults.
+	<p>Once the <b>Create a virtual machine</b> page opens, choose <b>Subscription</b> and previously created <b>Resource Group</b>. Fillout the values for <b>Virtual machine name</b> and <b>Image</b> - Windows 11 Pro, version 25H2 - x64 Gen2 under <b>Instance details</b>, the page will fill in the other fields with defaults.
 </p>
-<br />
 
 <p>
-<img width="804" height="249" alt="5vm" src="https://github.com/user-attachments/assets/fc24ffe4-79f3-4030-8082-d1e692c305ef" />
+<img width="787" height="485" alt="4vm" src="https://github.com/user-attachments/assets/72fd508c-50f4-440a-8717-f9acb02d84f3" />
 </p>
+<br />
 
 <p>
 <b>1.4</b>
@@ -85,23 +82,30 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <br />
 
 <p>
-<img width="515" height="207" alt="6vm" src="https://github.com/user-attachments/assets/f726dfba-352a-4e9a-ab47-83f9a1aba135" />
+<img width="804" height="249" alt="5vm" src="https://github.com/user-attachments/assets/fc24ffe4-79f3-4030-8082-d1e692c305ef" />
 </p>
+
+<br />
 
 <p>
 <b>1.5</b>
 <p>Under <b>Licensing</b> make sure to check the box for "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights." Leave the remaining defaults and select the <b>Review + create</b> button at the bottom of the page.
 </p>
-<br />
 
 <p>
-<img width="950" height="589" alt="2" src="https://github.com/user-attachments/assets/6e5f0d4d-6333-4ec1-9206-bc56fad4ffd7" />
+<img width="515" height="207" alt="6vm" src="https://github.com/user-attachments/assets/f726dfba-352a-4e9a-ab47-83f9a1aba135" />
 </p>
+
+<br />
 
 <p>
 <b>1.6</b>
 <p>After validation runs, select the <b>Create</b> button at the bottom of the page. Deployment should take 2-3 minutes.
 </p>
+<p>
+<img width="950" height="589" alt="2" src="https://github.com/user-attachments/assets/6e5f0d4d-6333-4ec1-9206-bc56fad4ffd7" />
+</p>
+
 <br />
 
 <p>
