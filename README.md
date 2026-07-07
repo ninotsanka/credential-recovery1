@@ -14,7 +14,7 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop / Windows App
 
 <h2>Operating Systems Used </h2>
 
