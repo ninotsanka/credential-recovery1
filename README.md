@@ -9,9 +9,7 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 
 <h2>Video Demonstration</h2>
 
-
-
-- ### [YouTube: Azure Virtual Machine Credential Recovery (easy)](https://www.youtube.com)
+- ### [YouTube: Azure Virtual Machine Credential Recovery (easy)](https://youtu.be/hBDQ15r8k0k)
 
 <h2>Environments and Technologies Used</h2>
 
