@@ -27,7 +27,7 @@ This lab demonstrates credential recovery within Azure Virtual Machines.<br />
 - Step 3: Troubleshoot & fix
 - Step 4: Verify the fix worked
 
-<h2>Setup and Troubleshooting Steps</h2>
+<h2>Setup and Troubleshooting Steps:</h2>
 <br />
 
 <p>
