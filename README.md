@@ -247,3 +247,4 @@ Success! You are now logged in and the fix worked!
 </p>
 <br />
 
+<h2>$\color{red}{\textsf{!!! Make sure to stop or delete the virtual machine when done to avoid getting charged !!!}}$</h2>
